@@ -1,0 +1,1226 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F25K80 ]
+[d frameptr 4065 ]
+"135 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X/instrument.h
+[e E12190 . `uc
+INSTRUMENT_INIT 0
+INSTRUMENT_ADQ_CHECK_AND_CONFIGURATION 1
+INSTRUMENT_BLUETOOTH_CHECK_CONNECTION 2
+INSTRUMENT_BLUETOOTH_CHECK_IF_DATA_WAS_RECEIVED 3
+INSTRUMENT_BLUETOOTH_PROCESS_DATA_RECEIVED 4
+INSTRUMENT_ADQ_GET_DATA 5
+INSTRUMENT_BLUETOOTH_CONCATENATE_DATA 6
+INSTRUMENT_BLUETOOTH_SEND_DATA 7
+]
+"135 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\instrument.h
+[e E12190 . `uc
+INSTRUMENT_INIT 0
+INSTRUMENT_ADQ_CHECK_AND_CONFIGURATION 1
+INSTRUMENT_BLUETOOTH_CHECK_CONNECTION 2
+INSTRUMENT_BLUETOOTH_CHECK_IF_DATA_WAS_RECEIVED 3
+INSTRUMENT_BLUETOOTH_PROCESS_DATA_RECEIVED 4
+INSTRUMENT_ADQ_GET_DATA 5
+INSTRUMENT_BLUETOOTH_CONCATENATE_DATA 6
+INSTRUMENT_BLUETOOTH_SEND_DATA 7
+]
+[e E12190 . `uc
+INSTRUMENT_INIT 0
+INSTRUMENT_ADQ_CHECK_AND_CONFIGURATION 1
+INSTRUMENT_BLUETOOTH_CHECK_CONNECTION 2
+INSTRUMENT_BLUETOOTH_CHECK_IF_DATA_WAS_RECEIVED 3
+INSTRUMENT_BLUETOOTH_PROCESS_DATA_RECEIVED 4
+INSTRUMENT_ADQ_GET_DATA 5
+INSTRUMENT_BLUETOOTH_CONCATENATE_DATA 6
+INSTRUMENT_BLUETOOTH_SEND_DATA 7
+]
+"22 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\instrument.c
+[e E12180 . `uc
+CHANNEL_1 0
+CHANNEL_2 1
+CHANNEL_3 2
+CHANNEL_4 3
+CHANNEL_5 4
+CHANNEL_6 5
+CHANNEL_7 6
+CHANNEL_8 7
+]
+"135 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\instrument.h
+[e E12201 . `uc
+INSTRUMENT_INIT 0
+INSTRUMENT_ADQ_CHECK_AND_CONFIGURATION 1
+INSTRUMENT_BLUETOOTH_CHECK_CONNECTION 2
+INSTRUMENT_BLUETOOTH_CHECK_IF_DATA_WAS_RECEIVED 3
+INSTRUMENT_BLUETOOTH_PROCESS_DATA_RECEIVED 4
+INSTRUMENT_ADQ_GET_DATA 5
+INSTRUMENT_BLUETOOTH_CONCATENATE_DATA 6
+INSTRUMENT_BLUETOOTH_SEND_DATA 7
+]
+"19 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\ads1115.c
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+"28
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+[v i2_I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+"32
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+[v i2_I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+"37
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+[v i2_I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+"42
+[v _I2C_Master_RepeatedStart I2C_Master_RepeatedStart `(v  1 e 1 0 ]
+[v i2_I2C_Master_RepeatedStart I2C_Master_RepeatedStart `(v  1 e 1 0 ]
+"47
+[v _I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+[v i2_I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+"52
+[v _I2C_Master_Read I2C_Master_Read `(uc  1 e 1 0 ]
+[v i2_I2C_Master_Read I2C_Master_Read `(uc  1 e 1 0 ]
+"65
+[v _ADS1115_config ADS1115_config `(uc  1 e 1 0 ]
+[v i2_ADS1115_config ADS1115_config `(uc  1 e 1 0 ]
+"81
+[v _ADS1115_read ADS1115_read `(ui  1 e 2 0 ]
+[v i2_ADS1115_read ADS1115_read `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"417 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
+[v _fround fround `(d  1 s 4 fround ]
+"433
+[v _scale scale `(d  1 s 4 scale ]
+"505
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"60 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fldivl.c
+[v __div_to_l_ _div_to_l_ `(ul  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"60 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\ftdivl.c
+[v __tdiv_to_l_ _tdiv_to_l_ `(ul  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+[v i2___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+[v i2___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+[v i2___xxtofl __xxtofl `(d  1 e 4 0 ]
+"11 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\instrument.c
+[v _INSTRUMENT_Initialize INSTRUMENT_Initialize `(v  1 e 1 0 ]
+"48
+[v _INSTRUMENT_Tasks INSTRUMENT_Tasks `(v  1 e 1 0 ]
+"166
+[v _INSTRUMENT_Presentation INSTRUMENT_Presentation `(v  1 e 1 0 ]
+"219
+[v _INSTRUMENT_Reset INSTRUMENT_Reset `(v  1 e 1 0 ]
+"250
+[v _INSTRUMENT_enableTimer INSTRUMENT_enableTimer `(v  1 e 1 0 ]
+"254
+[v _INSTRUMENT_disableTimer INSTRUMENT_disableTimer `(v  1 e 1 0 ]
+"258
+[v _INSTRUMENT_enableADQcommunication INSTRUMENT_enableADQcommunication `(uc  1 e 1 0 ]
+"263
+[v _INSTRUMENT_configurationADQ INSTRUMENT_configurationADQ `(uc  1 e 1 0 ]
+"267
+[v _INSTRUMENT_processBluetoothDataReceived INSTRUMENT_processBluetoothDataReceived `(uc  1 e 1 0 ]
+"438
+[v _INSTRUMENT_concatenateData INSTRUMENT_concatenateData `(uc  1 e 1 0 ]
+"465
+[v _INSTRUMENT_sendData INSTRUMENT_sendData `(uc  1 e 1 0 ]
+"50 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"68 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"99
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"117
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"137
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+"51 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"57
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"112 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"121
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"52 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"64 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+"93
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+"99
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+"120
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+"157
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+"176
+[v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
+"253
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+"257
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+"26860 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18F-K_DFP/1.4.87/xc8\pic\include\proc\pic18f25k80.h
+[v _WPUB WPUB `VEuc  1 e 1 @3931 ]
+"26922
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3932 ]
+"26974
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3933 ]
+"29753
+[v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @3965 ]
+[s S986 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"30035
+[s S995 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S999 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S1002 . 1 `S986 1 . 1 0 `S995 1 . 1 0 `S999 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES1002  1 e 1 @3970 ]
+"30225
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+[s S946 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"30252
+[s S955 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S964 . 1 `S946 1 . 1 0 `S955 1 . 1 0 ]
+[v _LATAbits LATAbits `VES964  1 e 1 @3977 ]
+"30327
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+[s S881 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"30354
+[s S890 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S899 . 1 `S881 1 . 1 0 `S890 1 . 1 0 ]
+[v _LATBbits LATBbits `VES899  1 e 1 @3978 ]
+"30439
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"30645
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"30702
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"30764
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+[s S1181 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"30781
+[u S1190 . 1 `S1181 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES1190  1 e 1 @3988 ]
+"30870
+[v _REFOCON REFOCON `VEuc  1 e 1 @3994 ]
+"30935
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S98 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR1GIE 1 0 :1:2 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+]
+"31092
+[s S106 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+[u S110 . 1 `S98 1 . 1 0 `S106 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES110  1 e 1 @3997 ]
+[s S70 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR1GIF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+]
+"31163
+[s S78 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S82 . 1 `S70 1 . 1 0 `S78 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES82  1 e 1 @3998 ]
+"31792
+[v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @4007 ]
+"32038
+[v _T1GCON T1GCON `VEuc  1 e 1 @4010 ]
+[s S185 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1GGO_NOT_T1DONE 1 0 :1:3 
+]
+"32072
+[s S188 . 1 `uc 1 T1GSS 1 0 :2:0 
+`uc 1 T1GVAL 1 0 :1:2 
+`uc 1 T1GGO_nT1DONE 1 0 :1:3 
+`uc 1 T1GSPM 1 0 :1:4 
+`uc 1 T1GTM 1 0 :1:5 
+`uc 1 T1GPOL 1 0 :1:6 
+`uc 1 TMR1GE 1 0 :1:7 
+]
+[s S196 . 1 `uc 1 T1GSS0 1 0 :1:0 
+`uc 1 T1GSS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 T1GGO 1 0 :1:3 
+]
+[s S201 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_T1DONE 1 0 :1:3 
+]
+[s S204 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 nT1DONE 1 0 :1:3 
+]
+[u S207 . 1 `S185 1 . 1 0 `S188 1 . 1 0 `S196 1 . 1 0 `S201 1 . 1 0 `S204 1 . 1 0 ]
+[v _T1GCONbits T1GCONbits `VES207  1 e 1 @4010 ]
+"32142
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+[s S385 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"32197
+[s S394 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 ADEN 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S400 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_RC8 1 0 :1:6 
+]
+[s S403 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S406 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S409 . 1 `uc 1 RX9D1 1 0 :1:0 
+`uc 1 OERR1 1 0 :1:1 
+`uc 1 FERR1 1 0 :1:2 
+`uc 1 ADDEN1 1 0 :1:3 
+`uc 1 CREN1 1 0 :1:4 
+`uc 1 SREN1 1 0 :1:5 
+`uc 1 RX91 1 0 :1:6 
+`uc 1 SPEN1 1 0 :1:7 
+]
+[s S418 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S421 . 1 `S385 1 . 1 0 `S394 1 . 1 0 `S400 1 . 1 0 `S403 1 . 1 0 `S406 1 . 1 0 `S409 1 . 1 0 `S418 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES421  1 e 1 @4011 ]
+"32480
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+"32768
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"32806
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"32844
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+"34555
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+[s S1206 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"34580
+[s S1215 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+"34580
+[u S1222 . 1 `S1206 1 . 1 0 `S1215 1 . 1 0 ]
+"34580
+"34580
+[v _SSPCON2bits SSPCON2bits `VES1222  1 e 1 @4037 ]
+"34650
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"34720
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"34952
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"35022
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"35259
+[v _T1CON T1CON `VEuc  1 e 1 @4045 ]
+[s S137 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_T1SYNC 1 0 :1:2 
+]
+"35291
+[s S140 . 1 `uc 1 TMR1ON 1 0 :1:0 
+`uc 1 RD16 1 0 :1:1 
+`uc 1 nT1SYNC 1 0 :1:2 
+`uc 1 SOSCEN 1 0 :1:3 
+`uc 1 T1CKPS 1 0 :2:4 
+`uc 1 TMR1CS 1 0 :2:6 
+]
+"35291
+[s S147 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 T1CKPS0 1 0 :1:4 
+`uc 1 T1CKPS1 1 0 :1:5 
+`uc 1 TMR1CS0 1 0 :1:6 
+`uc 1 TMR1CS1 1 0 :1:7 
+]
+"35291
+[s S153 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 T1OSCEN 1 0 :1:3 
+`uc 1 . 1 0 :3:4 
+`uc 1 T1RD16 1 0 :1:7 
+]
+"35291
+[u S158 . 1 `S137 1 . 1 0 `S140 1 . 1 0 `S147 1 . 1 0 `S153 1 . 1 0 ]
+"35291
+"35291
+[v _T1CONbits T1CONbits `VES158  1 e 1 @4045 ]
+"35368
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"35388
+[v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
+[s S490 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"35456
+[s S492 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+"35456
+[s S495 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+"35456
+[s S498 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+"35456
+[s S501 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+"35456
+[s S504 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_CM 1 0 :1:5 
+]
+"35456
+[s S507 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 nCM 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+"35456
+[s S516 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 CM 1 0 :1:5 
+]
+"35456
+[u S523 . 1 `S490 1 . 1 0 `S492 1 . 1 0 `S495 1 . 1 0 `S498 1 . 1 0 `S501 1 . 1 0 `S504 1 . 1 0 `S507 1 . 1 0 `S516 1 . 1 0 ]
+"35456
+"35456
+[v _RCONbits RCONbits `VES523  1 e 1 @4048 ]
+"35621
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @4050 ]
+"35693
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S703 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"36579
+[s S706 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 INT3IP 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 INTEDG3 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+"36579
+[s S715 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT3P 1 0 :1:1 
+`uc 1 T0IP 1 0 :1:2 
+`uc 1 . 1 0 :4:3 
+`uc 1 RBPU 1 0 :1:7 
+]
+"36579
+[u S721 . 1 `S703 1 . 1 0 `S706 1 . 1 0 `S715 1 . 1 0 ]
+"36579
+"36579
+[v _INTCON2bits INTCON2bits `VES721  1 e 1 @4081 ]
+[s S566 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"36681
+[s S575 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"36681
+[s S584 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+"36681
+[u S588 . 1 `S566 1 . 1 0 `S575 1 . 1 0 `S584 1 . 1 0 ]
+"36681
+"36681
+[v _INTCONbits INTCONbits `VES588  1 e 1 @4082 ]
+"358 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
+[v _dpowers dpowers `C[10]ul  1 s 40 dpowers ]
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\powers.c
+[v __powers_ _powers_ `C[13]d  1 e 52 0 ]
+"39
+[v __npowers_ _npowers_ `C[13]d  1 e 52 0 ]
+[s S33 BLUETOOTH 161 `uc 1 ATsent 1 0 `uc 1 checkConnection 1 1 `uc 1 HC06sentOK 1 2 `uc 1 Connected 1 3 `uc 1 DatawasReceived 1 4 `uc 1 ReceivingData 1 5 `uc 1 index_dataReceived 1 6 `[15]uc 1 DataReceived 15 7 `[128]uc 1 DatatoSend 128 22 `[8]uc 1 channelToSend 8 150 `uc 1 lengthMessagetoSend 1 158 `uc 1 DataConcatenated 1 159 `uc 1 sendData 1 160 ]
+"135 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\instrument.h
+[s S47 CHANNEL 10 `ui 1 adc 2 0 `f 1 voltage 4 2 `f 1 time 4 6 ]
+[s S51 DATA 258 `E12190 1 State 1 0 `uc 1 I2Cconfigurated 1 1 `uc 1 ADQ1configurated 1 2 `uc 1 ADQ2configurated 1 3 `uc 1 measuring 1 4 `uc 1 startSampling 1 5 `uc 1 conversionReady 1 6 `uc 1 readyToSend 1 7 `uc 1 channeltogetData 1 8 `f 1 SamplingWished 4 9 `ui 1 counterSamplingWished 2 13 `ui 1 counterSampling 2 15 `S33 1 Bluetooth 161 17 `[8]S47 1 Channel 80 178 ]
+[v _Data Data `S51  1 e 258 0 ]
+"60 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/eusart1.c
+[v _eusart1RxHead eusart1RxHead `VEuc  1 e 1 0 ]
+"61
+[v _eusart1RxTail eusart1RxTail `VEuc  1 e 1 0 ]
+"62
+[v _eusart1RxBuffer eusart1RxBuffer `VE[27]uc  1 e 27 0 ]
+"63
+[v _eusart1RxCount eusart1RxCount `VEuc  1 e 1 0 ]
+"57 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/tmr1.c
+[v _timer1ReloadVal timer1ReloadVal `VEui  1 e 2 0 ]
+"58
+[v _TMR1_InterruptHandler TMR1_InterruptHandler `*.37(v  1 e 2 0 ]
+"50 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"82
+} 0
+"112 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"119
+} 0
+"64 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/tmr1.c
+[v _TMR1_Initialize TMR1_Initialize `(v  1 e 1 0 ]
+{
+"91
+} 0
+"253
+[v _TMR1_SetInterruptHandler TMR1_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR1_SetInterruptHandler@InterruptHandler InterruptHandler `*.37(v  1 p 2 0 ]
+"255
+} 0
+"52 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"85
+} 0
+"121 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"131
+} 0
+"51 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"55
+} 0
+"68 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"97
+} 0
+"48 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\instrument.c
+[v _INSTRUMENT_Tasks INSTRUMENT_Tasks `(v  1 e 1 0 ]
+{
+"164
+} 0
+"465
+[v _INSTRUMENT_sendData INSTRUMENT_sendData `(uc  1 e 1 0 ]
+{
+"466
+[v INSTRUMENT_sendData@i i `i  1 a 2 7 ]
+"465
+[v INSTRUMENT_sendData@data data `*.39uc  1 p 2 1 ]
+[v INSTRUMENT_sendData@lenght lenght `uc  1 p 1 3 ]
+"470
+} 0
+"117 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 0 ]
+"124
+} 0
+"267 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\instrument.c
+[v _INSTRUMENT_processBluetoothDataReceived INSTRUMENT_processBluetoothDataReceived `(uc  1 e 1 0 ]
+{
+[v INSTRUMENT_processBluetoothDataReceived@datareceived datareceived `uc  1 a 1 wreg ]
+"432
+[v INSTRUMENT_processBluetoothDataReceived@i i `uc  1 a 1 2 ]
+"268
+[v INSTRUMENT_processBluetoothDataReceived@futureMeasuring futureMeasuring `uc  1 a 1 1 ]
+"267
+[v INSTRUMENT_processBluetoothDataReceived@datareceived datareceived `uc  1 a 1 wreg ]
+"269
+[v INSTRUMENT_processBluetoothDataReceived@datareceived datareceived `uc  1 a 1 0 ]
+"436
+} 0
+"263
+[v _INSTRUMENT_configurationADQ INSTRUMENT_configurationADQ `(uc  1 e 1 0 ]
+{
+[v INSTRUMENT_configurationADQ@adq_address adq_address `uc  1 a 1 wreg ]
+[v INSTRUMENT_configurationADQ@adq_address adq_address `uc  1 a 1 wreg ]
+[v INSTRUMENT_configurationADQ@channel channel `uc  1 p 1 4 ]
+[v INSTRUMENT_configurationADQ@adq_address adq_address `uc  1 a 1 5 ]
+"265
+} 0
+"438
+[v _INSTRUMENT_concatenateData INSTRUMENT_concatenateData `(uc  1 e 1 0 ]
+{
+"443
+[v INSTRUMENT_concatenateData@i i `uc  1 a 1 123 ]
+"463
+} 0
+"505 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+"533
+[v sprintf@fval fval `d  1 a 4 114 ]
+"545
+[v sprintf@val val `ul  1 a 4 110 ]
+[u S1329 . 4 `ul 1 vd 4 0 `d 1 integ 4 0 ]
+"543
+[v sprintf@tmpval tmpval `S1329  1 a 4 106 ]
+"517
+[v sprintf@prec prec `i  1 a 2 118 ]
+"534
+[v sprintf@eexp eexp `i  1 a 2 104 ]
+"525
+[v sprintf@flag flag `us  1 a 2 102 ]
+"527
+[v sprintf@ccnt ccnt `i  1 a 2 100 ]
+"507
+[v sprintf@ap ap `[1]*.39v  1 a 2 98 ]
+"512
+[v sprintf@c c `uc  1 a 1 120 ]
+"505
+[v sprintf@sp sp `*.39uc  1 p 2 76 ]
+[v sprintf@f f `*.25Cuc  1 p 2 78 ]
+"1567
+} 0
+"433
+[v _scale scale `(d  1 s 4 scale ]
+{
+[v scale@scl scl `c  1 a 1 wreg ]
+[v scale@scl scl `c  1 a 1 wreg ]
+"436
+[v scale@scl scl `c  1 a 1 47 ]
+"449
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 12 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 11 ]
+[v ___awdiv@counter counter `uc  1 a 1 10 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 6 ]
+[v ___awdiv@divisor divisor `i  1 p 2 8 ]
+"41
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 2 ]
+"15
+} 0
+"417 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\doprnt.c
+[v _fround fround `(d  1 s 4 fround ]
+{
+[v fround@prec prec `uc  1 a 1 wreg ]
+[v fround@prec prec `uc  1 a 1 wreg ]
+"421
+[v fround@prec prec `uc  1 a 1 51 ]
+"426
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 2 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 9 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 11 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 5 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 7 ]
+"30
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1654 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1659 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S1662 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1654 1 fAsBytes 4 0 `S1659 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S1662  1 a 4 33 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 27 ]
+[s S1730 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1733 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S1730 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S1733  1 a 2 37 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 32 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 31 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 26 ]
+"8
+[v ___flmul@b b `d  1 p 4 14 ]
+[v ___flmul@a a `d  1 p 4 18 ]
+"205
+} 0
+"60 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\ftdivl.c
+[v __tdiv_to_l_ _tdiv_to_l_ `(ul  1 e 4 0 ]
+{
+"63
+[v __tdiv_to_l_@quot quot `ul  1 a 4 11 ]
+"62
+[v __tdiv_to_l_@exp1 exp1 `uc  1 a 1 16 ]
+[v __tdiv_to_l_@cntr cntr `uc  1 a 1 15 ]
+"60
+[v __tdiv_to_l_@f1 f1 `f  1 p 4 0 ]
+[v __tdiv_to_l_@f2 f2 `f  1 p 4 4 ]
+"101
+} 0
+"60 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fldivl.c
+[v __div_to_l_ _div_to_l_ `(ul  1 e 4 0 ]
+{
+"63
+[v __div_to_l_@quot quot `ul  1 a 4 8 ]
+"62
+[v __div_to_l_@exp1 exp1 `uc  1 a 1 13 ]
+[v __div_to_l_@cntr cntr `uc  1 a 1 12 ]
+"60
+[v __div_to_l_@f1 f1 `d  1 p 4 0 ]
+[v __div_to_l_@f2 f2 `d  1 p 4 4 ]
+"101
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"10
+[v ___llmod@counter counter `uc  1 a 1 21 ]
+"7
+[v ___llmod@dividend dividend `ul  1 p 4 13 ]
+[v ___llmod@divisor divisor `ul  1 p 4 17 ]
+"25
+} 0
+"7 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"30
+} 0
+"43 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 57 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 56 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 48 ]
+"70
+} 0
+"245 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 68 ]
+[v ___flsub@a a `d  1 p 4 72 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 67 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 66 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 65 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 64 ]
+"10
+[v ___fladd@b b `d  1 p 4 52 ]
+[v ___fladd@a a `d  1 p 4 56 ]
+"237
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 0 ]
+"20
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"4 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 0 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 4 ]
+"12
+} 0
+"219 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\instrument.c
+[v _INSTRUMENT_Reset INSTRUMENT_Reset `(v  1 e 1 0 ]
+{
+"239
+[v INSTRUMENT_Reset@i_1118 i `i  1 a 2 6 ]
+"234
+[v INSTRUMENT_Reset@i i `i  1 a 2 8 ]
+"248
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"254 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\instrument.c
+[v _INSTRUMENT_disableTimer INSTRUMENT_disableTimer `(v  1 e 1 0 ]
+{
+"256
+} 0
+"99 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/tmr1.c
+[v _TMR1_StopTimer TMR1_StopTimer `(v  1 e 1 0 ]
+{
+"103
+} 0
+"11 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\instrument.c
+[v _INSTRUMENT_Initialize INSTRUMENT_Initialize `(v  1 e 1 0 ]
+{
+"19
+[v INSTRUMENT_Initialize@i i `i  1 a 2 13 ]
+"46
+} 0
+"250
+[v _INSTRUMENT_enableTimer INSTRUMENT_enableTimer `(v  1 e 1 0 ]
+{
+"252
+} 0
+"93 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/tmr1.c
+[v _TMR1_StartTimer TMR1_StartTimer `(v  1 e 1 0 ]
+{
+"97
+} 0
+"258 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\instrument.c
+[v _INSTRUMENT_enableADQcommunication INSTRUMENT_enableADQcommunication `(uc  1 e 1 0 ]
+{
+"261
+} 0
+"19 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\ads1115.c
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+{
+"26
+} 0
+"81
+[v _ADS1115_read ADS1115_read `(ui  1 e 2 0 ]
+{
+[v ADS1115_read@address address `uc  1 a 1 wreg ]
+"84
+[v ADS1115_read@data data `ui  1 a 2 8 ]
+"83
+[v ADS1115_read@datal datal `uc  1 a 1 11 ]
+"82
+[v ADS1115_read@datah datah `uc  1 a 1 10 ]
+"81
+[v ADS1115_read@address address `uc  1 a 1 wreg ]
+"85
+[v ADS1115_read@address address `uc  1 a 1 12 ]
+"101
+} 0
+"42
+[v _I2C_Master_RepeatedStart I2C_Master_RepeatedStart `(v  1 e 1 0 ]
+{
+"45
+} 0
+"52
+[v _I2C_Master_Read I2C_Master_Read `(uc  1 e 1 0 ]
+{
+[v I2C_Master_Read@a a `uc  1 a 1 wreg ]
+"53
+[v I2C_Master_Read@temp temp `uc  1 a 1 3 ]
+"52
+[v I2C_Master_Read@a a `uc  1 a 1 wreg ]
+"54
+[v I2C_Master_Read@a a `uc  1 a 1 2 ]
+"62
+} 0
+"65
+[v _ADS1115_config ADS1115_config `(uc  1 e 1 0 ]
+{
+[v ADS1115_config@address address `uc  1 a 1 wreg ]
+[v ADS1115_config@address address `uc  1 a 1 wreg ]
+[v ADS1115_config@channel channel `uc  1 p 1 2 ]
+[v ADS1115_config@address address `uc  1 a 1 3 ]
+"78
+} 0
+"47
+[v _I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+{
+[v I2C_Master_Write@d d `uc  1 a 1 wreg ]
+[v I2C_Master_Write@d d `uc  1 a 1 wreg ]
+[v I2C_Master_Write@d d `uc  1 a 1 1 ]
+"50
+} 0
+"37
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+{
+"40
+} 0
+"32
+[v _I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+{
+"35
+} 0
+"28
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+{
+"30
+} 0
+"99 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+{
+"101
+[v EUSART1_Read@readValue readValue `uc  1 a 1 0 ]
+"115
+} 0
+"166 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\instrument.c
+[v _INSTRUMENT_Presentation INSTRUMENT_Presentation `(v  1 e 1 0 ]
+{
+"184
+} 0
+"57 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"79
+} 0
+"157 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/tmr1.c
+[v _TMR1_ISR TMR1_ISR `(v  1 e 1 0 ]
+{
+"159
+[v TMR1_ISR@CountCallBack CountCallBack `VEui  1 s 2 CountCallBack ]
+"174
+} 0
+"120
+[v _TMR1_WriteTimer TMR1_WriteTimer `(v  1 e 1 0 ]
+{
+[v TMR1_WriteTimer@timerVal timerVal `ui  1 p 2 0 ]
+"140
+} 0
+"176
+[v _TMR1_CallBack TMR1_CallBack `(v  1 e 1 0 ]
+{
+"185
+[v TMR1_CallBack@i i `uc  1 a 1 43 ]
+"251
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+[v i2___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v i2___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v i2___xxtofl@arg arg `ul  1 a 4 10 ]
+"12
+[v i2___xxtofl@exp exp `uc  1 a 1 9 ]
+"10
+[v i2___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v i2___xxtofl@val val `l  1 p 4 0 ]
+"15
+[v i2___xxtofl@sign sign `uc  1 a 1 8 ]
+"44
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcmul.c
+[v i2___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S1654 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S1659 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S1662 . 4 `l 1 i 4 0 `d 1 f 4 0 `S1654 1 fAsBytes 4 0 `S1659 1 fAsWords 4 0 ]
+[v i2___flmul@prod prod `S1662  1 a 4 33 ]
+"12
+[v i2___flmul@grs grs `ul  1 a 4 27 ]
+[s S1730 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S1733 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S1730 1 nAsBytes 2 0 ]
+[v i2___flmul@temp temp `S1733  1 a 2 37 ]
+"10
+[v i2___flmul@bexp bexp `uc  1 a 1 32 ]
+"11
+[v i2___flmul@aexp aexp `uc  1 a 1 31 ]
+"9
+[v i2___flmul@sign sign `uc  1 a 1 26 ]
+"8
+[v i2___flmul@b b `d  1 p 4 14 ]
+[v i2___flmul@a a `d  1 p 4 18 ]
+"205
+} 0
+"10 C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcadd.c
+[v i2___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v i2___fladd@grs grs `uc  1 a 1 15 ]
+"15
+[v i2___fladd@bexp bexp `uc  1 a 1 14 ]
+"16
+[v i2___fladd@aexp aexp `uc  1 a 1 13 ]
+"13
+[v i2___fladd@signs signs `uc  1 a 1 12 ]
+"10
+[v i2___fladd@b b `d  1 p 4 0 ]
+[v i2___fladd@a a `d  1 p 4 4 ]
+"237
+} 0
+"81 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\ads1115.c
+[v i2_ADS1115_read ADS1115_read `(ui  1 e 2 0 ]
+{
+[v i2ADS1115_read@address address `uc  1 a 1 wreg ]
+"84
+[v i2ADS1115_read@data data `ui  1 a 2 8 ]
+"83
+[v i2ADS1115_read@datal datal `uc  1 a 1 11 ]
+"82
+[v i2ADS1115_read@datah datah `uc  1 a 1 10 ]
+"81
+[v i2ADS1115_read@address address `uc  1 a 1 wreg ]
+"85
+[v i2ADS1115_read@address address `uc  1 a 1 12 ]
+"101
+} 0
+"42
+[v i2_I2C_Master_RepeatedStart I2C_Master_RepeatedStart `(v  1 e 1 0 ]
+{
+"45
+} 0
+"52
+[v i2_I2C_Master_Read I2C_Master_Read `(uc  1 e 1 0 ]
+{
+[v i2I2C_Master_Read@a a `uc  1 a 1 wreg ]
+"53
+[v i2I2C_Master_Read@temp temp `uc  1 a 1 3 ]
+"52
+[v i2I2C_Master_Read@a a `uc  1 a 1 wreg ]
+"54
+[v i2I2C_Master_Read@a a `uc  1 a 1 2 ]
+"62
+} 0
+"65
+[v i2_ADS1115_config ADS1115_config `(uc  1 e 1 0 ]
+{
+[v i2ADS1115_config@address address `uc  1 a 1 wreg ]
+[v i2ADS1115_config@address address `uc  1 a 1 wreg ]
+[v i2ADS1115_config@channel channel `uc  1 p 1 2 ]
+[v i2ADS1115_config@address address `uc  1 a 1 3 ]
+"78
+} 0
+"47
+[v i2_I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+{
+[v i2I2C_Master_Write@d d `uc  1 a 1 wreg ]
+[v i2I2C_Master_Write@d d `uc  1 a 1 wreg ]
+[v i2I2C_Master_Write@d d `uc  1 a 1 1 ]
+"50
+} 0
+"37
+[v i2_I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+{
+"40
+} 0
+"32
+[v i2_I2C_Master_Start I2C_Master_Start `(v  1 e 1 0 ]
+{
+"35
+} 0
+"28
+[v i2_I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+{
+"30
+} 0
+"257 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/tmr1.c
+[v _TMR1_DefaultInterruptHandler TMR1_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"260
+} 0
+"137 C:\Users\nahue\MPLABXProjects\ADQ-BT-v1.2.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Receive_ISR EUSART1_Receive_ISR `(v  1 e 1 0 ]
+{
+"148
+} 0
